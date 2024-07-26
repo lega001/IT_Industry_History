@@ -1,0 +1,327 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>주요 이벤트 후 나스닥 종합지수 주가 상승률</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <style>
+            body {
+                margin: 40px;
+            }
+            .table {
+                width: 80%;
+                margin: auto;
+            }
+            .navbar {
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">나스닥 종합지수 분석</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li><a class="nav-link" href="나스닥_종합지수_1970.html">1970s</a></li><li><a class="nav-link" href="나스닥_종합지수_1980.html">1980s</a></li><li><a class="nav-link" href="나스닥_종합지수_1990.html">1990s</a></li><li><a class="nav-link" href="나스닥_종합지수_2000.html">2000s</a></li><li><a class="nav-link" href="나스닥_종합지수_2010.html">2010s</a></li><li><a class="nav-link" href="나스닥_종합지수_2020.html">2020s</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h2 class="text-center">주요 이벤트 후 나스닥 종합지수 주가 상승률</h2>
+        <table class="dataframe table table-striped">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>발생 날짜</th>
+      <th>이벤트</th>
+      <th>6개월 후</th>
+      <th>1년 후</th>
+      <th>2년 후</th>
+      <th>3년 후</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1980-01-01</td>
+      <td>[1980-1990년대: 개인용 컴퓨터와 초기 인터넷]</td>
+      <td>4.65</td>
+      <td>33.88</td>
+      <td>29.58</td>
+      <td>53.77</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1981-08-12</td>
+      <td>IBM PC 출시 - 개인용 컴퓨터 시대 도래</td>
+      <td>-13.67</td>
+      <td>-24.59</td>
+      <td>41.34</td>
+      <td>19.10</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1983-01-01</td>
+      <td>TCP/IP 프로토콜 채택 - 네트워크 표준화</td>
+      <td>38.37</td>
+      <td>19.87</td>
+      <td>6.32</td>
+      <td>39.80</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1987-12-01</td>
+      <td>TSMC, 2µm 공정 양산</td>
+      <td>21.33</td>
+      <td>21.72</td>
+      <td>49.44</td>
+      <td>17.66</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1989-03-12</td>
+      <td>WWW 제안 - 월드 와이드 웹 시대 시작</td>
+      <td>16.11</td>
+      <td>7.56</td>
+      <td>13.67</td>
+      <td>52.04</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>1991-08-06</td>
+      <td>WWW 첫 공개</td>
+      <td>24.90</td>
+      <td>14.19</td>
+      <td>41.63</td>
+      <td>42.25</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>1994-10-01</td>
+      <td>TSMC, 0.5µm 공정 양산</td>
+      <td>6.92</td>
+      <td>36.54</td>
+      <td>60.53</td>
+      <td>120.56</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>1995-08-24</td>
+      <td>Windows 95 출시 - 대중적인 인터넷 접속 촉진</td>
+      <td>9.42</td>
+      <td>11.96</td>
+      <td>56.59</td>
+      <td>76.08</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>1998-01-01</td>
+      <td>TSMC, 0.35µm 공정 양산</td>
+      <td>20.61</td>
+      <td>39.63</td>
+      <td>159.13</td>
+      <td>57.32</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2000-01-01</td>
+      <td>[2000-2010년대: 인터넷과 모바일 혁명]</td>
+      <td>-2.54</td>
+      <td>-39.29</td>
+      <td>-52.07</td>
+      <td>-67.18</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2001-01-01</td>
+      <td>TSMC, 0.18µm 공정 양산</td>
+      <td>-13.03</td>
+      <td>-21.05</td>
+      <td>-45.94</td>
+      <td>-18.91</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2004-02-04</td>
+      <td>Facebook 창립 - 소셜 네트워크의 부상</td>
+      <td>-7.90</td>
+      <td>2.16</td>
+      <td>12.33</td>
+      <td>22.92</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2006-03-21</td>
+      <td>Twitter 창립</td>
+      <td>-3.13</td>
+      <td>7.05</td>
+      <td>-1.57</td>
+      <td>-36.48</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2006-07-01</td>
+      <td>Amazon, AWS 출시 - 데이터센터 시대 시작</td>
+      <td>11.20</td>
+      <td>19.85</td>
+      <td>5.57</td>
+      <td>-15.52</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2007-01-09</td>
+      <td>최초의 아이폰 발표 - 모바일 시대 시작</td>
+      <td>7.99</td>
+      <td>1.26</td>
+      <td>-33.83</td>
+      <td>-5.18</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2008-09-23</td>
+      <td>안드로이드 운영 체제 발표</td>
+      <td>-29.57</td>
+      <td>-1.02</td>
+      <td>8.07</td>
+      <td>15.32</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2010-01-27</td>
+      <td>아이패드 발표</td>
+      <td>1.94</td>
+      <td>24.03</td>
+      <td>26.79</td>
+      <td>41.79</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2010-01-01</td>
+      <td>[2010-2020년대: AI와 데이터센터의 발전]</td>
+      <td>-7.82</td>
+      <td>16.91</td>
+      <td>14.81</td>
+      <td>33.07</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2011-02-16</td>
+      <td>IBM Watson 'Jeopardy!' 우승</td>
+      <td>-11.12</td>
+      <td>4.75</td>
+      <td>12.97</td>
+      <td>50.20</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2012-01-01</td>
+      <td>TSMC, 28nm 공정 양산</td>
+      <td>12.66</td>
+      <td>15.91</td>
+      <td>60.32</td>
+      <td>81.80</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2014-11-13</td>
+      <td>Amazon, AWS Lambda 발표</td>
+      <td>7.92</td>
+      <td>5.29</td>
+      <td>11.90</td>
+      <td>44.25</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2015-10-14</td>
+      <td>Tesla, 자율주행 소프트웨어 공개</td>
+      <td>3.44</td>
+      <td>9.00</td>
+      <td>38.11</td>
+      <td>56.75</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2016-03-15</td>
+      <td>AlphaGo 이세돌 대결</td>
+      <td>9.02</td>
+      <td>24.77</td>
+      <td>58.22</td>
+      <td>62.59</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2017-05-17</td>
+      <td>Google, TPU 발표</td>
+      <td>11.56</td>
+      <td>22.81</td>
+      <td>30.03</td>
+      <td>49.96</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2018-04-01</td>
+      <td>TSMC, 7nm 공정 양산</td>
+      <td>13.92</td>
+      <td>10.84</td>
+      <td>9.01</td>
+      <td>87.54</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>2020-04-01</td>
+      <td>TSMC, 5nm 공정 양산</td>
+      <td>51.72</td>
+      <td>83.14</td>
+      <td>93.76</td>
+      <td>66.05</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>2020-06-11</td>
+      <td>OpenAI, GPT-3 발표</td>
+      <td>30.69</td>
+      <td>48.21</td>
+      <td>19.46</td>
+      <td>39.68</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>2020-01-01</td>
+      <td>[2020년대: 최신 AI와 모바일 기술의 발전]</td>
+      <td>13.17</td>
+      <td>43.64</td>
+      <td>74.36</td>
+      <td>16.65</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>2022-10-01</td>
+      <td>TSMC, 3nm 공정 양산</td>
+      <td>15.57</td>
+      <td>25.00</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>2022-11-30</td>
+      <td>OpenAI, ChatGPT 발표 - AI 시대 시작</td>
+      <td>12.79</td>
+      <td>24.05</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>2023-03-14</td>
+      <td>OpenAI, GPT-4 발표</td>
+      <td>20.52</td>
+      <td>41.56</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+    </body>
+    </html>
+    
